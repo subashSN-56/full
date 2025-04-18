@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8000/todos";
+const API_URL = "https://todos-app-c2d8.onrender.com/todos";
 
 async function fetchTodos() {
   const res = await fetch(API_URL);
